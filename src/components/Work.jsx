@@ -3,6 +3,8 @@ import FoodRush from "../assets/foodrush.jpg";
 import RealEstate from "../assets/realestate.jpg";
 import Netflix from "../assets/netflix.jpg";
 import Experiences from "../assets/experiences.jpg";
+import YelpCamp from "../assets/yelpcamp.png";
+import Beaches from "../assets/beaches.jpg";
 
 const Work = () => {
   return (
@@ -47,6 +49,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${FoodRush})` }}
@@ -125,6 +128,57 @@ const Work = () => {
                   href="https://github.com/jakedusing/Experiences"
                   target="_blank"
                 >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${YelpCamp})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                YelpCamp
+              </span>
+              <div className="pt-8 text-center">
+                {/* <a
+                  href="https://jaked-netflixclone.netlify.app/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a> */}
+                <a href="https://yelpcamp-noir.onrender.com/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${Beaches})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                BEACHES
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://jaked-beaches.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/jakedusing/beaches" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
