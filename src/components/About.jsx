@@ -18,9 +18,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I'm determined to keep learning and
-              would love to collaborate with others.
+              I'm a life long gamer and nerd. I'm determined to keep learning
+              and to find a position where my skills can be used to bring joy to
+              those who play the games I help create.
             </p>
           </div>
         </div>
