@@ -26,7 +26,8 @@ const Home = () => {
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I'm a developer specializing in building video games. Currently, I'm
-          focused on working in Unity.
+          focused on working in Unity with C#, but also getting into Unreal
+          Engine and C++.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
