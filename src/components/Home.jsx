@@ -25,7 +25,7 @@ const Home = () => {
           I'm a Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm a developer specializing in building video games. Currently, I'm
+          I'm a developer specializing in building video games. As of now I'm
           focused on working in Unity with C#, but also getting into Unreal
           Engine and C++.
         </p>
