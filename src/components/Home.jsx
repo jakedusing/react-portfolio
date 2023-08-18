@@ -30,7 +30,7 @@ const Home = () => {
           Engine and C++.
         </p>
         <div>
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="games" smooth={true} duration={500}>
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#E57C23] hover:border-[#E57C23]">
               View Work
               <span className="group-hover:rotate-90 duration-300">
