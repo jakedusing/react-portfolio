@@ -51,6 +51,14 @@ const Work = () => {
                     Code
                   </button>
                 </a>
+                <a
+                  href="https://github.com/jakedusing/KitchenChaos/tree/master/Assets/GDD"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Game Design Document
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -79,6 +87,14 @@ const Work = () => {
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/jakedusing/CaveEscape/tree/master/Assets/GDD"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Game Design Document
                   </button>
                 </a>
               </div>
