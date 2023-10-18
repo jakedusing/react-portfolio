@@ -21,7 +21,8 @@ const About = () => {
               I'm a life long gamer and nerd. I'm determined to keep learning
               and to find a position where my skills can be used to bring joy to
               those who play the games I help create. Currently I'm playing
-              Tears of the Kingdom and reading Star Wars: Light of the Jedi.
+              Tears of the Kingdom and reading through the Star Wars High
+              Republic novels.
             </p>
           </div>
         </div>
