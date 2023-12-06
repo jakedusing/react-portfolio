@@ -18,11 +18,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              I'm a life long gamer and nerd. I'm determined to keep learning
-              and to find a position where my skills can be used to bring joy to
-              those who play the games I help create. Currently I'm playing
-              Tears of the Kingdom and reading through the Star Wars High
-              Republic novels.
+              I'm a life long gamer. I'm committed to keep learning and use my
+              knowledge and experience to find a position where my skills can be
+              used to bring joy to those who play the games I help create.
             </p>
           </div>
         </div>

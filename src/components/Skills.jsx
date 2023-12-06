@@ -20,20 +20,20 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 gap-8 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSharp} alt="HTML icon" />
-            <p className="my-4">C#</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Unity} alt="CSS icon" />
-            <p className="my-4">Unity</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Unreal} alt="Javascript icon" />
             <p className="my-4">Unreal Engine</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Cpp} alt="React icon" />
             <p className="my-4">C++</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={CSharp} alt="HTML icon" />
+            <p className="my-4">C#</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Unity} alt="CSS icon" />
+            <p className="my-4">Unity</p>
           </div>
         </div>
       </div>
