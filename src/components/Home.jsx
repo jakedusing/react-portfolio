@@ -18,16 +18,15 @@ const Home = () => {
           />
           My name is
         </p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-6xl font-bold text-[#ccd6f6]">
           Jake Dusing
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Game Developer.
+        <h2 className="text-4xl sm:text-6xl font-bold text-[#8892b0]">
+          I'm a Video Game Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I'm a video game developer specializing in building games in Unreal
-          Engine. As of now I'm focused on working in UE5 with C++ but also have
-          experience in Unity and C#.
+          Engine with C++ and Blueprints.
         </p>
         <div>
           <Link to="games" smooth={true} duration={500}>

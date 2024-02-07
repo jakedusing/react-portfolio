@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import Blaster from "./components/Blaster";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Work />
+      <Blaster />
       <Contact />
     </div>
   );
