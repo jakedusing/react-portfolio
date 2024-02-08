@@ -22,7 +22,7 @@ const Drone = () => {
             eliminate all of the drones before the time is up.
             <br />
             <br />
-            ((No Github Repo for this one, made with Blueprints))
+            (No Github Repo for this one, made with Blueprints)
           </p>
           <div className="flex flex-row justify-normal">
             <div className="pr-10">

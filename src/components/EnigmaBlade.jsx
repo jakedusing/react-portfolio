@@ -29,9 +29,9 @@ const EnigmaBlade = () => {
             receive a soul that will also replenish health.
             <br />
             <br />
-            ((Project is too large for itch.io, it can be downloaded below from
+            (Project is too large for itch.io, it can be downloaded below from
             Google Drive. But please check out the gameplay below and the
-            Github))
+            Github)
           </p>
           <div className="flex flex-row justify-normal">
             <div className="pr-10">
