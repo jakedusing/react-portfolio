@@ -31,7 +31,7 @@ const Blaster = () => {
             <div className="pr-10">
               <a href="https://jakedusing.itch.io/blaster" target="_blank">
                 <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#9c3030] hover:border-[#9c3030]">
-                  Download from Google Drive
+                  View on itch.io
                   <span className="group-hover:rotate-45 duration-300">
                     <FaItchIo className="ml-3" />
                   </span>
