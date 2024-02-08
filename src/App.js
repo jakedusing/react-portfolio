@@ -2,18 +2,18 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
+import EnigmaBlade from "./components/EnigmaBlade";
 import Blaster from "./components/Blaster";
+import Drone from "./components/Drone";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
-      <About />
-      <Skills />
       <Blaster />
+      <EnigmaBlade />
+      <Drone />
       <Contact />
     </div>
   );

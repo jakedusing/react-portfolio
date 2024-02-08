@@ -1,37 +1,37 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import { FaItchIo, FaGithub } from "react-icons/fa";
-import Blaster1 from "../assets/Blaster1.jpg";
-import Blaster2 from "../assets/Blaster2.jpg";
-import Blaster3 from "../assets/Blaster3.jpg";
-import Blaster4 from "../assets/Blaster4.jpg";
+import Drone1 from "../assets/Drone1.jpg";
+import Drone2 from "../assets/Drone2.jpg";
+import Drone3 from "../assets/Drone3.JPG";
+import Drone4 from "../assets/Drone4.JPG";
 
-const Blaster = () => {
+const Drone = () => {
   return (
-    <div name="blaster" className="w-full h-100% bg-[#0a192f] text-gray-300">
+    <div name="drone" className="w-full h-100% bg-[#0a192f] text-gray-300">
       {/* Container*/}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-2 border-[#E57C23]">
-            Blaster
+            Skyline Siege: Drone Dominion
           </p>
           <p className="py-4 pb-5">
-            Blaster is an online multiplayer shooter game consisting of Free For
-            All, Teams, and Capture The Flag modes. The game features lag
-            compensation techniques including client-side prediction and
-            server-side rewind. Blaster includes assault rifles, pistols,
-            submachine guns, rocket launchers, grenade launchers, sniper rifles,
-            and throwing grenades. There are also multiple pick ups players can
-            use, such as shields, health, speed and jump buffs, and ammo pick
-            ups. The HUD will show the player which weapon they are currently
-            holding and the ammo ammount. The player with the most kills at the
-            time gets a ring around their head.
+            Skyline Siege: Drone Dominion is a first person shooter game built
+            entirely with blueprints in Unreal Engine 5. Hostile drones have
+            taken over the city. If they notice you, they will turn red and
+            charge at you and explode. The players goal is to survive and
+            eliminate all of the drones before the time is up.
+            <br />
+            <br />
+            ((No Github Repo for this one, made with Blueprints))
           </p>
           <div className="flex flex-row justify-normal">
             <div className="pr-10">
-              <a href="https://jakedusing.itch.io/blaster" target="_blank">
+              <a
+                href="https://jakedusing.itch.io/skyline-siege-drone-dominion"
+                target="_blank"
+              >
                 <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#9c3030] hover:border-[#9c3030]">
-                  Download from Google Drive
+                  View on itch.io
                   <span className="group-hover:rotate-45 duration-300">
                     <FaItchIo className="ml-3" />
                   </span>
@@ -39,14 +39,12 @@ const Blaster = () => {
               </a>
             </div>
             <div>
-              <a href="https://github.com/jakedusing/blaster" target="_blank">
-                <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#333] hover:border-[#333]">
-                  View Github
-                  <span className="group-hover:rotate-45 duration-300">
-                    <FaGithub className="ml-3" />
-                  </span>
-                </button>
-              </a>
+              <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#333] hover:border-[#333]">
+                View Github
+                <span className="group-hover:rotate-45 duration-300">
+                  <FaGithub className="ml-3" />
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -54,30 +52,30 @@ const Blaster = () => {
         {/* Container for sections*/}
         <div className="w-full grid grid-cols-2 gap-8 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-full mx-auto" src={Blaster1} alt="Blaster icon" />
+            <img className="w-full mx-auto" src={Drone1} alt="Blaster icon" />
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-full h-full mx-auto"
-              src={Blaster4}
+              src={Drone4}
               alt="Blaster icon"
             />
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-full mx-auto h-full"
-              src={Blaster2}
+              src={Drone2}
               alt="HTML icon"
             />
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-full mx-auto" src={Blaster3} alt="CSS icon" />
+            <img className="w-full mx-auto" src={Drone3} alt="CSS icon" />
           </div>
           <div>
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/NwBfEmHT-3w?si=5-ZSZxOBvU132bX8"
+              src="https://www.youtube.com/embed/RlMAcCW3Esw?si=ijhXn6voM57CaGvW"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -92,4 +90,4 @@ const Blaster = () => {
   );
 };
 
-export default Blaster;
+export default Drone;

@@ -1,17 +1,16 @@
 import React from "react";
-import LiteYoutubeEmbed from "react-lite-youtube-embed";
-import CSharp from "../assets/csharp.png";
-import Unity from "../assets/unity.png";
-import Unreal from "../assets/unreal.png";
-import Cpp from "../assets/cpp.png";
+import { FaItchIo, FaGithub, FaGoogleDrive } from "react-icons/fa";
 import EB1 from "../assets/EB1.JPG";
 import EB2 from "../assets/EB2.JPG";
 import EB3 from "../assets/EB3.JPG";
 import EB4 from "../assets/EB4.JPG";
 
-const Skills = () => {
+const EnigmaBlade = () => {
   return (
-    <div name="skills" className="w-full h-100% bg-[#0a192f] text-gray-300">
+    <div
+      name="enigmablade"
+      className="w-full h-100% bg-[#0a192f] text-gray-300"
+    >
       {/* Container*/}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -22,8 +21,43 @@ const Skills = () => {
             Enigma Blade is an open world RPG style game with sword fighting
             combat. The game was made from scratch using assets from Valley of
             the Acient, other various assets from the Unreal Marketplace, and
-            characters and animations from Mixamo.
+            characters and animations from Mixamo. Gameplay includes breakable
+            objects that spawn collectibles and combat with enemies who have
+            motion warping to make the fight a bit more difficult. Players can
+            use a dodge action to avoid being hit but it uses Stamina which
+            slowly refills over time, and upon killing an emeny they will
+            receive a soul that will also replenish health.
+            <br />
+            <br />
+            ((Project is too large for itch.io, it can be downloaded below from
+            Google Drive. But please check out the gameplay below and the
+            Github))
           </p>
+          <div className="flex flex-row justify-normal">
+            <div className="pr-10">
+              <a
+                href="https://drive.google.com/file/d/1Zhfz6-CbvT8oQqg1fnUP-nTbeIV9CQ5a/view?usp=drive_link"
+                target="_blank"
+              >
+                <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#9c3030] hover:border-[#9c3030]">
+                  Download from Google Drive
+                  <span className="group-hover:rotate-45 duration-300">
+                    <FaGoogleDrive className="ml-3" />
+                  </span>
+                </button>
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/jakedusing/Slash" target="_blank">
+                <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#333] hover:border-[#333]">
+                  View Github
+                  <span className="group-hover:rotate-45 duration-300">
+                    <FaGithub className="ml-3" />
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* Container for sections*/}
@@ -61,4 +95,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default EnigmaBlade;

@@ -1,5 +1,11 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedin,
+  FaItchIo,
+} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
@@ -26,17 +32,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link to="games" smooth={true} duration={500}>
+          <Link to="blaster" smooth={true} duration={500}>
             Games
           </Link>
         </li>
@@ -65,17 +61,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="games" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="blaster" smooth={true} duration={500}>
             Games
           </Link>
         </li>
@@ -105,6 +91,15 @@ const Navbar = () => {
               target="_blank"
             >
               Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9c3030]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://jakedusing.itch.io/"
+              target="_blank"
+            >
+              itch.io <FaItchIo size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
