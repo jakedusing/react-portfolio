@@ -20,9 +20,6 @@ const Drone = () => {
             taken over the city. If they notice you, they will turn red and
             charge at you and explode. The players goal is to survive and
             eliminate all of the drones before the time is up.
-            <br />
-            <br />
-            (No Github Repo for this one, made with Blueprints)
           </p>
           <div className="flex flex-row justify-normal">
             <div className="pr-10">
@@ -38,14 +35,14 @@ const Drone = () => {
                 </button>
               </a>
             </div>
-            <div>
+            {/*<div>
               <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#333] hover:border-[#333]">
                 View Github
                 <span className="group-hover:rotate-45 duration-300">
                   <FaGithub className="ml-3" />
                 </span>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
 
