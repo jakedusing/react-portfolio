@@ -4,6 +4,7 @@ import EB1 from "../assets/EB1.JPG";
 import EB2 from "../assets/EB2.JPG";
 import EB3 from "../assets/EB3.JPG";
 import EB4 from "../assets/EB4.JPG";
+import EB5 from "../assets/EB5.JPG";
 
 const EnigmaBlade = () => {
   return (
@@ -19,14 +20,16 @@ const EnigmaBlade = () => {
           </p>
           <p className="py-4 pb-5">
             Enigma Blade is an open world RPG style game with sword fighting
-            combat. The game was made from scratch using assets from Valley of
-            the Acient, other various assets from the Unreal Marketplace, and
-            characters and animations from Mixamo. Gameplay includes breakable
-            objects that spawn collectibles and combat with enemies who have
-            motion warping to make the fight a bit more difficult. Players can
-            use a dodge action to avoid being hit but it uses Stamina which
-            slowly refills over time, and upon killing an emeny they will
-            receive a soul that will also replenish health.
+            combat. The open world allows players to see different areas of the
+            world letting the sense of exploration take them to places they have
+            not seen yet. The game was made from scratch using assets from
+            Valley of the Acient, other various assets from the Unreal
+            Marketplace, and characters and animations from Mixamo. Gameplay
+            includes breakable objects that spawn collectibles and combat with
+            enemies who have motion warping to make the fight a bit more
+            difficult. Players can use a dodge action to avoid being hit but it
+            uses Stamina which slowly refills over time, and upon killing an
+            emeny they will receive a soul that will also replenish health.
             <br />
             <br />
             Project is too large for itch.io, it can be downloaded below from
@@ -62,7 +65,7 @@ const EnigmaBlade = () => {
         {/* Container for sections*/}
         <div className="w-full grid grid-cols-2 gap-8 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-full mx-auto" src={EB1} alt="Javascript icon" />
+            <img className="w-full mx-auto" src={EB5} alt="Javascript icon" />
             {/*  <p className="my-4">Unreal Engine</p> */}
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
