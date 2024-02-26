@@ -18,8 +18,11 @@ const Drone = () => {
             Skyline Siege: Drone Dominion is a first person shooter game built
             entirely with blueprints in Unreal Engine 5. Hostile drones have
             taken over the city. If they notice you, they will turn red and
-            charge at you and explode. The players goal is to survive and
-            eliminate all of the drones before the time is up.
+            charge at you and explode. Drones use AI navigation, having them
+            patrol between points. If the player enters the acceptance sphere
+            around the drone, the drone selects the player as the next patrol
+            target, then if the player enters the acceptance sphere for
+            destruction the drone explodes.
           </p>
           <div className="flex flex-row justify-normal">
             <div className="pr-10">

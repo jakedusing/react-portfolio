@@ -1,7 +1,7 @@
 import React from "react";
 import { FaItchIo, FaGithub, FaGoogleDrive } from "react-icons/fa";
 import EB1 from "../assets/EB1.JPG";
-import EB2 from "../assets/EB2.JPG";
+import EB6 from "../assets/EB6.JPG";
 import EB3 from "../assets/EB3.JPG";
 import EB4 from "../assets/EB4.JPG";
 import EB5 from "../assets/EB5.JPG";
@@ -22,13 +22,13 @@ const EnigmaBlade = () => {
             Enigma Blade is an open world RPG style game with sword fighting
             combat. The open world allows players to see different areas of the
             world letting the sense of exploration take them to places they have
-            not seen yet. The game was made from scratch using assets from
-            Valley of the Acient, other various assets from the Unreal
-            Marketplace, and characters and animations from Mixamo. Gameplay
-            includes breakable objects that spawn collectibles and combat with
-            enemies who have motion warping to make the fight a bit more
-            difficult. Players can use a dodge action to avoid being hit but it
-            uses Stamina which slowly refills over time, and upon killing an
+            not seen yet. Gameplay includes breakable objects that spawn
+            collectibles and combat with enemies who have motion warping to make
+            the fight a bit more difficult. Enemies use AI to patrol around
+            certain areas, if enemies see the player they will start chasing,
+            but if the player gets a certain distance away the enemy will return
+            to patrolling. Players can use a dodge action to avoid being hit but
+            it uses Stamina which slowly refills over time, and upon killing an
             emeny they will receive a soul that will also replenish health.
             <br />
             <br />
@@ -69,7 +69,7 @@ const EnigmaBlade = () => {
             {/*  <p className="my-4">Unreal Engine</p> */}
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-full h-full mx-auto" src={EB2} alt="React icon" />
+            <img className="w-full h-full mx-auto" src={EB6} alt="React icon" />
             {/*  <p className="my-4">Unreal Engine</p> */}
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">

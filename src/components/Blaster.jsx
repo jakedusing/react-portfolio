@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiArrowDown } from "react-icons/hi2";
 import { FaItchIo, FaGithub } from "react-icons/fa";
 import Blaster1 from "../assets/Blaster1.jpg";
 import Blaster2 from "../assets/Blaster2.jpg";
@@ -12,6 +12,12 @@ const Blaster = () => {
       {/* Container*/}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
+          <div className="pt-20 pb-10">
+            <p className="text-4xl font-bold flex flex-row justify-start">
+              Games I've Made
+            </p>
+          </div>
+          <br />
           <p className="text-4xl font-bold inline border-b-2 border-[#E57C23]">
             Blaster
           </p>
@@ -24,8 +30,9 @@ const Blaster = () => {
             and throwing grenades. There are also multiple pick ups players can
             use, such as shields, health, speed and jump buffs, and ammo pick
             ups. The HUD will show the player which weapon they are currently
-            holding and the ammo ammount. The player with the most kills at the
-            time gets a ring around their head.
+            holding and the ammo ammount, also the elimination feed letting
+            players know who was elimnated by who. The player with the most
+            kills at the time gets a ring around their head.
           </p>
           <div className="flex flex-row justify-normal">
             <div className="pr-10">
@@ -73,11 +80,22 @@ const Blaster = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-full mx-auto" src={Blaster3} alt="CSS icon" />
           </div>
-          <div>
+          <div className="col-span-2">
             <iframe
               width="560"
               height="315"
               src="https://www.youtube.com/embed/NwBfEmHT-3w?si=5-ZSZxOBvU132bX8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="col-span-2">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/m5c29sH-QEA?si=BSd3CAKYoSAKTUQ6"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

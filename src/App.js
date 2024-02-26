@@ -5,12 +5,14 @@ import Navbar from "./components/Navbar";
 import EnigmaBlade from "./components/EnigmaBlade";
 import Blaster from "./components/Blaster";
 import Drone from "./components/Drone";
+import Carousel from "./components/LevelDesign";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
+      <Carousel />
       <Blaster />
       <EnigmaBlade />
       <Drone />
