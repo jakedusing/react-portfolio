@@ -37,6 +37,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to="leveldesign" smooth={true} duration={500}>
+            Levels
+          </Link>
+        </li>
+        <li>
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -63,6 +68,16 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="blaster" smooth={true} duration={500}>
             Games
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="leveldesign"
+            smooth={true}
+            duration={500}
+          >
+            Levels
           </Link>
         </li>
         <li className="py-6 text-4xl">

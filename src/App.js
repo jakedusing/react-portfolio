@@ -12,10 +12,10 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <Carousel />
       <Blaster />
       <EnigmaBlade />
       <Drone />
+      <Carousel />
       <Contact />
     </div>
   );

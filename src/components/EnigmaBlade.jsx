@@ -13,7 +13,7 @@ const EnigmaBlade = () => {
       className="w-full h-100% bg-[#0a192f] text-gray-300"
     >
       {/* Container*/}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pb-12">
         <div>
           <p className="text-4xl font-bold inline border-b-2 border-[#E57C23]">
             Enigma Blade

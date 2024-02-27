@@ -83,7 +83,7 @@ const Carousel = () => {
   return (
     <div
       name="leveldesign"
-      className="w-full h-full bg-[#0a192f] text-gray-300"
+      className="w-full h-100% bg-[#0a192f] text-gray-300 pt-20"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center">
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
