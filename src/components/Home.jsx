@@ -30,7 +30,7 @@ const Home = () => {
           to continuous learning and to use my knowledge and experience to find
           a position where my skills can be used to bring joy to those who play
           the games I help create. I am passionate about game development and
-          level design, and am currently learning the Gameplay Ability System
+          level design, and I'm currently learning the Gameplay Ability System
           while creating a top down RPG game. Below you can find some games I've
           made.
         </p>
