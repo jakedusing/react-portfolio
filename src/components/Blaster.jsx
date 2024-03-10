@@ -13,9 +13,7 @@ const Blaster = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pb-12">
         <div>
           <div className="pt-20 pb-10">
-            <p className="text-4xl font-bold flex flex-row justify-start">
-              Games I've Made
-            </p>
+            <p className="text-4xl font-bold flex flex-row justify-start"></p>
           </div>
           <br />
           <p className="text-4xl font-bold inline border-b-2 border-[#E57C23]">

@@ -26,12 +26,13 @@ const Home = () => {
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I'm a video game developer specializing in building games in Unreal
-          Engine with C++ and Blueprints. I'm a life long gamer and am committed
+          Engine with Blueprints and C++. I'm a life long gamer and am committed
           to continuous learning and to use my knowledge and experience to find
           a position where my skills can be used to bring joy to those who play
           the games I help create. I am passionate about game development and
-          level design, and look forwarding to hearing from anyone who is
-          reading this.
+          level design, and am currently learning the Gameplay Ability System
+          while creating a top down RPG game. Below you can find some games I've
+          made.
         </p>
         <div>
           <Link to="blaster" smooth={true} duration={500}>
